@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import Ball from "./Ball";
+import Lottery from "./Lottery";
 
 function App() {
   return (
     <div className="App">
-      <Ball num={17} />
+      <Lottery />
+      <Lottery title="mini daily" maxNum={10} numBalls={4} />
     </div>
   );
 }
